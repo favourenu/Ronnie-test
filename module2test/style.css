@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.stage-1 {
+    background-color: green;
+    border: 3px solid black;
+    width: 35%;
+    margin: 5px;
+
+}
+
+.stage-2 {
+    background-color: yellow;
+    border: 3px solid black;
+    width: 35%;
+    margin: 5px;
+}
+
+.stage-3 {
+    background-color: red;
+    border: 3px solid black;
+    width: 35%;
+    margin: 5px;
+}
+
+p {
+    position: relative;
+    top: 20px;
+}
+
+.head-1 {
+    background-color: #e76f51;
+    width: 20%;
+    border: 2px solid black;
+    float: right;
+    text-align: center;
+}
+
+.head-2 {
+    background-color: red;
+    width: 20%;
+    border: 2px solid black;
+    float: right;
+    text-align: center;
+}
+
+
+.head-3 {
+    background-color: #e9c46a;
+    width: 20%;
+    border: 2px solid black;
+    float: right;
+    text-align: center;
+
+}
+
+
+
+@media (min-width:992px) {}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .stage-3 {
+        width: 98%;
+        height: 200px;
+        position: absolute;
+        top: 270px;
+        margin: 0px;
+    }
+
+    .stage-1 {
+        width: 50%;
+    }
+
+    .stage-2 {
+        width: 50%;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    [class ^="stage-"] {
+        width: 100%;
+    }
+}
