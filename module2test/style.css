@@ -17,7 +17,7 @@ h1 {
     border: 3px solid black;
     width: 35%;
     margin: 5px;
-    padding: 8px;
+    padding: auto;
 
 }
 
@@ -26,7 +26,7 @@ h1 {
     border: 3px solid black;
     width: 35%;
     margin: 5px;
-    padding: 8px;
+    padding: auto;
 }
 
 .stage-3 {
@@ -34,7 +34,7 @@ h1 {
     border: 3px solid black;
     width: 35%;
     margin: 5px;
-    padding: 8px;
+    padding: auto;
 }
 
 p {
@@ -48,6 +48,9 @@ p {
     border: 2px solid black;
     float: right;
     text-align: center;
+    position: relative;
+    left: 1px;
+    bottom: 4p;
 }
 
 .head-2 {
@@ -56,6 +59,9 @@ p {
     border: 2px solid black;
     float: right;
     text-align: center;
+    position: relative;
+    left: 1px;
+    bottom: 4p;
 }
 
 
@@ -65,6 +71,9 @@ p {
     border: 2px solid black;
     float: right;
     text-align: center;
+    position: relative;
+    left: 1px;
+    bottom: 4p;
 
 }
 
