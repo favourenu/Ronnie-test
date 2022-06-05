@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <header>
-        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light bg-warning">
+    <header class="bg-warning">
+        <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
             <div class="container ">
                 <div class="row">
                     <div class="navbar-header col">
-                        <a href="first-web.html" class=" collapse-lg">
+                        <a href="first-web.html" class=" collapse-lg d-none d-md-inline-block">
                             <div id="logo-img" alt="logo image"></div>
                         </a>
                     </div>
@@ -35,14 +35,30 @@
                     </div>
                 </div>
             </div>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navinavi"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler align-content-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navinavi" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse collapse-navbar navbar-right" id="navinavi">
+            <!-- <div class="collapse collapse-navbar navbar-right" id="navinavi">
                 <a class="nav-link nav-item" href="home">home</a>
                 <a class="nav-link nav-item" href="home">contact</a>
                 <a class="nav-link nav-item" href="home">about</a>
+            </div> -->
+            <div class="collapse navbar-collapse justify-content-end" id="navinavi">
+                <!-- <a class="navbar-brand" href="#">Hidden brand</a> -->
+                <ul>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About</a>
+                    </li>
+
+                </ul>
             </div>
 
         </nav>

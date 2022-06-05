@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.gang {
+    background-color: #54d2e0;
+
+
+}
+
+.hang {
+    background-color: #00f5d4;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}
+
+#favii {
+    display: flex;
+
+
+}
+
+#favii p {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    line-height: 2;
+    color: #e63946;
+}
+
+h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bake {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #3a86ff;
+}
+
+button a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.dave p {
+    font-size: 40px;
+}
+
+
+@media (min-width:312px) and (max-width:900px) {
+    #favii {
+        display: block;
+    }
+
+    #favii p,
+    img {
+        width: 100%;
+    }
+
+    .dave p {
+        font-size: 30px;
+        color: rgb(235, 145, 48);
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        color: brown;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+}

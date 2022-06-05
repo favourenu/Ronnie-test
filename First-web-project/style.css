@@ -61,4 +61,10 @@ a:hover,
     vertical-align: middle;
 }
 
-*/
+#navinavi ul {
+    list-style-type: none;
+}
+
+#header-nav {
+    width: 100%;
+}
