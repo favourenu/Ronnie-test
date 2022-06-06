@@ -84,7 +84,8 @@ button a {
 
     .dave p {
         font-size: 30px;
-        color: rgb(235, 145, 48);
+        color: black;
+        font-weight: 400;
     }
 
     h1 {
